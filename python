@@ -1,0 +1,12 @@
+Códigos em Python: 
+
+1: Verificar se um número é positivo, negativo ou zero
+Escreva um programa que peça ao usuário para inserir um número e, em seguida, verifique se o número é positivo, negativo ou zero, imprimindo a mensagem correspondente.
+
+Resposta: num = int(input("introduza um numero:"))
+if num > 0:
+    print("o numero é positivo!")
+elif num == 0:
+    print("o numero é zero")
+else:
+    print("o numero é negativo")
